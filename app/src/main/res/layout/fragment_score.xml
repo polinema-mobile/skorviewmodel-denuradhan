@@ -98,7 +98,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="8dp"
-			android:text="@{vm.getHomeScorer()}"
+			android:text="{vm.getHomeScorer()}"
 			app:layout_constraintBottom_toTopOf="@+id/button_add_home"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent" />
@@ -108,7 +108,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="8dp"
-			android:text="@{vm.getAwayScorer()}"
+			android:text="{vm.getAwayScorer()}"
 			app:layout_constraintBottom_toTopOf="@+id/button_add_away"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent" />
